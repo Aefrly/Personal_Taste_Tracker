@@ -53,8 +53,11 @@ for (let i = 0; i < friendFavorites.length; i++) {
 }
 
 // 7. Create a new array longFoodNames for foods with names longer than 6 characters.
-
-
+for (let i = 0; i < friendFavorites.length; i++) {
+  if (friendFavorites[i].length > 6) {
+    let longFoodNames = friendFavorites[i];
+  }
+}
 
 // 8. Create another array shortFoodNames for foods 6 characters or shorter.
 
