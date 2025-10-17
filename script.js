@@ -26,6 +26,9 @@ function printFoodRecommendation(foodName) {
 }
 
 // 4b. Call the function at least 3 times
+printFoodRecommendation("Chicken");
+printFoodRecommendation("Ice Cream");
+printFoodRecommendation("Spaghetti");
 
 
 
