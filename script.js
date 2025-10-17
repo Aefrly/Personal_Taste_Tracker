@@ -77,6 +77,14 @@ if (longFoodNames.length > shortFoodNames.length) {
   console.log("There are more shrot-named foods.");
 }
 
-
 // 10. STRETCH: Find the longest food name and print:
 // "The longest food name in the list is ______ with ___ characters."
+longestName = "";
+longestLength = 0;
+for(let i = 0; i < longFoodNames.length; i++) {
+  if(longFoodNames[i].length > longestLength) {
+    longestName = longFoodNames[i];
+    longestLength = longFoodNames[i].length;
+  }
+} 
+console.log("The longest food name in the list is " + longestName + " with " + longestLength + " characters.");
