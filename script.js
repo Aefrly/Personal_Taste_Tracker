@@ -45,8 +45,12 @@ for (let i = 0; i < friendFavorites.length; i++) {
 }
 
 // 6. Store the result in an array called foodsWithA. Print out the array.
-
-
+for (let i = 0; i < friendFavorites.length; i++) {
+  if (friendFavorites.includes("a")) {
+    let foodsWithA = friendFavorites[i];
+    console.log(foodsWithA);
+  }
+}
 
 // 7. Create a new array longFoodNames for foods with names longer than 6 characters.
 
