@@ -3,7 +3,9 @@ console.log("Hello World!");
 let favoriteFoods = ["Chicken", "Chocolate", "Burritos", "Ice Cream", "Burgers", "Spaghetti"];
 
 // 2. Loop through the list and print: "One of my favorite foods is ______."
-
+for (let i = 0; i < favoriteFoods.length; i++) {
+  console.log("One of my favorite foods is " + favoriteFoods[i] + ".");
+}
 
 
 
